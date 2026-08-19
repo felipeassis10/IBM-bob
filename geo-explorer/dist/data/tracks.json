@@ -1,0 +1,91 @@
+[
+    {
+        "id": "nodejs",
+        "name": "Node.js",
+        "modules": [
+            "Introduction to Node.js and the Event Loop",
+            "Working with npm and package management",
+            "File system and streams",
+            "Building RESTful APIs with Express",
+            "Authentication with JWT",
+            "Testing with Jest"
+        ],
+        "challenges": {
+            "iniciante": {
+                "title": "Hello, World! API",
+                "description": "Build a simple HTTP server in Node.js that returns a JSON greeting. No frameworks allowed — use only the built-in `http` module."
+            },
+            "intermediario": {
+                "title": "RESTful Task Manager",
+                "description": "Implement a full CRUD REST API for a task manager using Express and an in-memory store. Endpoints must include POST /tasks, GET /tasks, PUT /tasks/:id, and DELETE /tasks/:id."
+            }
+        }
+    },
+    {
+        "id": "python",
+        "name": "Python",
+        "modules": [
+            "Python syntax and data types",
+            "Functions, lambdas, and comprehensions",
+            "Object-Oriented Programming in Python",
+            "Working with external libraries (requests, pandas)",
+            "Writing scripts and CLI tools",
+            "Unit testing with pytest"
+        ],
+        "challenges": {
+            "iniciante": {
+                "title": "Number Classifier",
+                "description": "Write a Python script that reads a list of numbers from stdin and classifies each one as positive, negative, or zero. Print the results to stdout."
+            },
+            "intermediario": {
+                "title": "CSV Data Analyser",
+                "description": "Given a CSV file with sales data (product, quantity, price), write a Python script using pandas to calculate total revenue per product and output a sorted summary."
+            }
+        }
+    },
+    {
+        "id": "typescript",
+        "name": "TypeScript",
+        "modules": [
+            "TypeScript fundamentals and type system",
+            "Interfaces, enums, and generics",
+            "Advanced types and utility types",
+            "Decorators and metadata",
+            "Integrating TypeScript with Node.js",
+            "Building type-safe APIs"
+        ],
+        "challenges": {
+            "iniciante": {
+                "title": "Typed Calculator",
+                "description": "Create a TypeScript module that exports a typed `calculate(op, a, b)` function supporting add, subtract, multiply, and divide. Include proper type guards and handle division by zero."
+            },
+            "intermediario": {
+                "title": "Generic Data Repository",
+                "description": "Implement a generic in-memory Repository<T> class in TypeScript with methods: save(item: T), findById(id: string), findAll(), and delete(id: string). Use generics and interfaces throughout."
+            }
+        }
+    },
+    {
+        "id": "rpa-python",
+        "name": "RPA com Python e SQL",
+        "modules": [
+            "Introdução à Automação de Processos (RPA) com Python",
+            "Web Scraping com BeautifulSoup e Selenium",
+            "Manipulação e transformação de dados com Pandas",
+            "Integração com bancos de dados relacionais (SQLite e PostgreSQL)",
+            "Consumo de APIs REST com requests e autenticação OAuth2",
+            "Orquestração de tarefas automáticas com schedule e logging",
+            "Testes de scripts de automação com pytest"
+        ],
+        "challenges": {
+            "iniciante": {
+                "title": "Raspador de Notícias",
+                "description": "Crie um script Python que acesse uma página HTML estática, extraia os títulos e links das 5 primeiras notícias usando BeautifulSoup e salve o resultado em um arquivo CSV."
+            },
+            "intermediario": {
+                "title": "Pipeline de Dados com API + SQL",
+                "description": "Desenvolva um pipeline Python que consuma uma API REST pública (ex: JSONPlaceholder), transforme os dados retornados com Pandas (filtragem, agrupamento e renomeação de colunas) e persista o resultado em uma tabela SQLite. Inclua logs de execução e tratamento de erros."
+            }
+        }
+    }
+]
